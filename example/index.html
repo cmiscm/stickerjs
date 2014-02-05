@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head xmlns="http://www.w3.org/1999/html">
+    <title>Sticker.js</title>
+
+    <style type="text/css">
+        body {
+            background-color: #52accc;
+        }
+
+        .sticker {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            margin: 50px;
+        }
+
+        .example-1 .sticker-img {
+            background-image: url(heroes-2.png);
+        }
+
+        .example-2 .sticker-img {
+            background-color: #ff4a85;
+        }
+
+        .example-2 .sticker-shadow {
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticker example-1"></div>
+
+    <div class="sticker example-2"></div>
+
+    <script src="../sticker.min.js"></script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            Sticker.init('.sticker');
+        }
+    </script>
+</body>
+</html>
