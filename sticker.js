@@ -116,10 +116,10 @@
 
     function onMove(e, value) {
         if (_savePos == null) {
-            sticker.enter(e, value);
+            onEnter(e, value);
             window.document.addEventListener('mouseup', function (e) {
                 this.removeEventListener('mouseup', arguments.callee, false);
-                sticker.leave(e, value);
+                onLeave(e, value);
             }, false);
         }
         var pos = checkPos(e, _savePos.pos, value.size),
