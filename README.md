@@ -2,7 +2,7 @@ Sticker.js
 ============
 
 
-[![alt text](http://cmiscm.github.com/cm-rotate.js/screenshot/cmrotate-img.jpg)](https://github.com/cmiscm/stickerjs)
+[![alt text](http://cmiscm.github.io/stickerjs/screenshot/sticker-js.jpg)](https://github.com/cmiscm/stickerjs)
 
 
 A Javascript library that allows you to create a Sticker Effect.
