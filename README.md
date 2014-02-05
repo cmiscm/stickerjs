@@ -8,7 +8,7 @@ Sticker.js
 A Javascript library that allows you to create a Sticker Effect.
 
  * No dependencies
- * Works in most of major browsers that support CSS translate3d or transition (IE10+)
+ * Works in most of major browsers that support CSS 3 (IE10+)
  * MIT License
  
 ### Example
