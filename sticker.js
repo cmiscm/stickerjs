@@ -227,6 +227,13 @@
             front.className = 'sticker-img sticker-front';
             backImg.className = 'sticker-img sticker-back';
             backShadow.className = depth.className = 'sticker-shadow';
+
+            // If "data-sticker-img" attribute is set, use that as the image
+            if (typeof dom.dataset.stickerImg === 'string') {
+                front.style.backgroundImage = 'url(' + dom.dataset.stickerImg + ')';
+                backImg.style.backgroundImage = 'url(' + dom.dataset.stickerImg + ')';
+            }
+
             dom.appendChild(container);
             container.appendChild(mask);
             mask.appendChild(move);
