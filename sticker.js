@@ -232,7 +232,6 @@
             if (typeof dom.dataset.stickerImg === 'string') {
                 front.style.backgroundImage = 'url(' + dom.dataset.stickerImg + ')';
                 backImg.style.backgroundImage = 'url(' + dom.dataset.stickerImg + ')';
-                console.log(front, backImg);
             }
 
             dom.appendChild(container);
